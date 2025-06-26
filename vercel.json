@@ -1,7 +1,9 @@
 {
-  "build": {
-    "env": {
-      "NEXT_DISABLE_ESLINT": "true"
+  "routes": [
+    {
+      "src": "/api/inngest",
+      "methods": ["GET", "POST"],
+      "dest": "/api/inngest"
     }
-  }
+  ]
 }
